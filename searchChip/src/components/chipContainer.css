@@ -2,20 +2,15 @@
   width: 25rem;
   height: 20rem;
   overflow-y: auto;
-  /* border: 1px solid #ccc; */
-  /* Hide scrollbar for Chrome, Safari, and newer versions of Edge */
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
   display: none;
   border-radius: 10px;
   margin-top: 0.5rem;
 }
-
 .chip__container::-webkit-scrollbar {
   width: 0;
 }
-
-/* Optional: If you want to hide the scrollbar for Firefox */
 .chip__container::-webkit-scrollbar-thumb {
   background-color: transparent;
 }

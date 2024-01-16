@@ -27,9 +27,6 @@ const Chip = ({
   const handleInputChange = (name: string, email: string) => {
     console.log(name);
     console.log(inputValue, "inputValue before update");
-
-    // Update inputValue and log the updated value
-
     setInputValue?.(name);
     console.log(inputValue, "inputValue after update");
     console.log(selectedChips, "selectedChips");
@@ -46,11 +43,7 @@ const Chip = ({
           )
       )
     );
-
-    //setting the input value to " " by selecting from class
-
     setInputValue?.(" ");
-
   };
   return (
     <div
