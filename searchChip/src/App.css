@@ -1,0 +1,69 @@
+.main__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #222222;
+}
+.input__container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 90%;
+  border-bottom: 1px solid #ccc;
+}
+.input__container > .input-chip__container {
+  display: flex;
+  flex-direction: row;
+}
+.input__container .chip {
+  width: auto;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+.input__container .chip > .logo {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 0;
+  background-color: #3b3434; /* Gray color for the round logo */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.input__container .chip > .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 0.3rem;
+  font-size: 0.7rem;
+}
+.input__container .chip >.close {
+  height: auto;
+  width: auto;
+  font-size: 0.7rem;
+}
+
+input {
+  width: 70%; 
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px; 
+  padding-left: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+input::placeholder {
+  color: #ffffff;
+}
+
